@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  color: #36405F; 
+  font-family: 'Urbanist', sans-serif;
+  background-color: #FFFDF8;
+}
+header {
+  padding: 15px;
+  background-color: #FFFDF8;
+  color: #36405F;
+}
+.logo {
+  max-width: 75px;
+}
+header ul {
+  float: right;
+  color: #36405F;
+}
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+header p {
+  display: inline-block;
+}
+.heroImg {;
+  padding: 100px 15px;
+  background-color: #FFFDF8;
+}
+
+.headshot {
+  max-width: 200px;
+}
+
+.headshot {
+  transform: scale(0.5); /* Initial scale */
+  transition: transform 1s; /* Transition over 1 second */
+}
+ 
+.content {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #FFFDF8;
+  text-align: center;
+}
+button {
+  padding: 15px;
+  background-color: #80A0C8;
+  color: #FFFDF8;
+  font-size: 15px;
+  border-radius: 4px;
+}
+
+.button :hover {
+  background-color: #A98D4F;
+}
+
+footer {
+  background-color: #FFFDF8;
+  padding: 5px;
+  color: #36405F; 
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
+.heading {
+  text-align: center;
+  padding: 15px 5px;
+  font-size: 30px;
+}
+
+
+/* My Work Section */
+.myWork {
+  padding: 60px 30px;
+  padding-top: 0;
+  background-color: #FFFDF8;
+}
+.workGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 350px 350px 350px;
+  grid-template-areas:
+  "img1 content1"
+  "img2 content2"
+  "img3 content3"
+  ;
+}
+.workGrid img {
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  display: block;
+}
+.img1 {
+  grid-area: img1;
+}
+.img1:hover {
+  background-color: rgba(128, 160, 200, 0.2); 
+} 
+
+.img2:hover {
+  background-color: rgba(128, 160, 200, 0.2); 
+} 
+
+.img3:hover {
+  background-color: rgba(128, 160, 200, 0.2); 
+}
+.img2 {
+  grid-area: img2;
+}
+.img3 {
+  grid-area: img3;
+}
+.img1, .img2, .img3, .content1, .content2, .content3 {
+  padding: 80px;
+}
+.content1 {
+  grid-area: content1;
+}
+.content2 {
+  grid-area: content2;
+}
+.content3 {
+  grid-area: content3;
+}

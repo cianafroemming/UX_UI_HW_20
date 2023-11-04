@@ -15,7 +15,16 @@ body {
     color: #36405F; 
     background-color: #FFFDF8;
 }
-  .prototype {
+ 
+.list-group-item {
+    background-color: #FFFDF8;
+    color: #36405F;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: center;
+}
+
+.prototype {
     width: 1200px;
     justify-content: center;
 }
@@ -30,5 +39,12 @@ body {
     color: #36405F; 
     font-family: 'Urbanist', sans-serif;
     background-color: #FFFDF8;
+}
+
+.card-img-top {
+    width: auto;
+    margin: 40px;
+    background-color: #FFFDF8;
+    color: #FFFDF8;;
 }
 
